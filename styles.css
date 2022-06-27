@@ -1,0 +1,18 @@
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+header{
+    background-color:darkslateblue;
+}
+.left, .right{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    background-color:darkseagreen;
+}
+.right{
+    background-color:indianred;
+}
