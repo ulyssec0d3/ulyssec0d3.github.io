@@ -1,18 +1,40 @@
+body{
+    font-family: Geneva, Tahoma, sans-serif;
+    max-width: 21cm;
+    max-height: 29.7cm;
+}
 main{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
 header{
-    background-color:darkslateblue;
+    background-color:#30c0a8;
+    padding: 1.2rem;
+    /*box-shadow:20#6060a8;*/
+    display: flex;
+    justify-content: space-between;
 }
 .left, .right{
     display: flex;
     flex-direction: column;
+    padding:1.2rem;
 }
 .left{
-    background-color:darkseagreen;
+    background-color:#30a8c0;
+
 }
-.right{
-    background-color:indianred;
+.left h2{
+    text-align: center;
+    margin-top:1rem;
+}
+.right{}
+ul{
+    list-style: none;
+}
+.identite{
+    height: 6rem; 
+    width: 5rem;
+    border-radius: 50%;
+    
 }
